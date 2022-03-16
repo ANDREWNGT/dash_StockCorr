@@ -1,6 +1,6 @@
 name: dash_StockCorr #Environment name
 dependencies:
-  - python=3.8.0
+  - python=3.8.10
   - pip
   - pip:
     - numpy==1.18.1
