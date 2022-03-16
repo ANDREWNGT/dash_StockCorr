@@ -4,8 +4,9 @@ IDE Used: Spyder 5.05\
 Python 3.8.10\
 Anaconda Package Management.  
 
-Packages used to be found in req.txt.
-This is the source code for a dash app that takes in user inputs about 2 stock tickers, analysis dates and specified stock features such as the open or closing prices. The dash app then plots the price of the features for the 2 stocks over the analysis date. Stock data is retrieved via yfinance.  
+Packages used to be found in environment.yml. The file requirements.txt was generated because it is needed in the heroku pipeline with the command: pip freeze > requirements.txt.  
+
+app.py is the source code for a dash app that takes in user inputs about 2 stock tickers, analysis dates and specified stock features such as the open or closing prices. The dash app then plots the price of the features for the 2 stocks over the analysis date. Stock data is retrieved via yfinance.  
  
 The dash app is hosted via heroku and can be accessed here: https://agile-plateau-82438.herokuapp.com/  
 
