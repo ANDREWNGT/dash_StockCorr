@@ -1,5 +1,5 @@
 # Dash Stock Correlation plot
-Last updated: 16/3/2022
+Last updated: 16/3/2022\
 IDE Used: Spyder 5.05\
 Python 3.8.10\
 Anaconda Package Management.  
