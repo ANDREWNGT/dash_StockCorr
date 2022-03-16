@@ -103,6 +103,9 @@ def generate_inputs(INPUT_PARAMS, placeholder_list,i):
                 type = "text",
                 value = default_case[i]
                 )
+
+server = app.server
+
 app.layout = html.Div([
     html.H1(children='Stock correlations', style={'text-align': 'center'}), #Title?
     dbc.InputGroup([dbc.InputGroupText("Stock Ticker 1:"), dbc.Input(id = "Stock_ticker1", placeholder="Eg:BABA", value="BABA")]
